@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    top: 1px;
+    left: 1px;
+    width: 100%;
+    background-color: green;
+    z-index: 10;
+}
+footer{
+    position: fixed;
+    bottom: 1px;
+    left: 1px;
+    width: 100%;
+    background-color: green;
+}
+main{
+    margin: auto;
+    width: 60%;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: grid;
+}
+nav{
+    border: 1px black solid;
+    border-radius: 5px;
+    position: fixed;
+    top: 110px;
+    right: 20px;
+}
+article{
+    border: 1px black solid;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+form{
+    position: relative;
+    border: 1px solid black;
+    display: grid;
+}
+
+button{ 
+    position: absolute;
+    top: 5px;
+    right: 1px;
+}
+label, input, button{
+    margin: 15px;
+}
+
+#kozep{
+    position: fixed;
+    background-color: white;
+    width: 40%;
+    top: 50%;
+    width: 600px;
+    left: calc(50% - 300px);
+}
